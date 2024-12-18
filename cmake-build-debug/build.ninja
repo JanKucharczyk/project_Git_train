@@ -49,12 +49,6 @@ cmake_ninja_workdir = C$:/Users/student/Desktop/project_Git_train/cmake-build-de
 
 build cmake_object_order_depends_target_project_Git_train: phony || .
 
-build CMakeFiles/project_Git_train.dir/main.cpp.obj: CXX_COMPILER__project_Git_train_unscanned_Debug C$:/Users/student/Desktop/project_Git_train/main.cpp || cmake_object_order_depends_target_project_Git_train
-  DEP_FILE = CMakeFiles\project_Git_train.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\project_Git_train.dir
-  OBJECT_FILE_DIR = CMakeFiles\project_Git_train.dir
-
 build CMakeFiles/project_Git_train.dir/main.c.obj: C_COMPILER__project_Git_train_unscanned_Debug C$:/Users/student/Desktop/project_Git_train/main.c || cmake_object_order_depends_target_project_Git_train
   DEP_FILE = CMakeFiles\project_Git_train.dir\main.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
@@ -69,7 +63,7 @@ build CMakeFiles/project_Git_train.dir/main.c.obj: C_COMPILER__project_Git_train
 #############################################
 # Link the executable project_Git_train.exe
 
-build project_Git_train.exe: CXX_EXECUTABLE_LINKER__project_Git_train_Debug CMakeFiles/project_Git_train.dir/main.cpp.obj CMakeFiles/project_Git_train.dir/main.c.obj
+build project_Git_train.exe: C_EXECUTABLE_LINKER__project_Git_train_Debug CMakeFiles/project_Git_train.dir/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\project_Git_train.dir
